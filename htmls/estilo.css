@@ -1,0 +1,104 @@
+body, html{
+    height: 100%;
+}
+body{
+    font-family: Helvetica, sans-serif;
+
+}
+#wrap{
+    height: 100%;
+    width: auto;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #002746;
+}
+h1{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    color: white;
+}
+
+.text-end{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 20%;
+    padding: 20px;
+}
+.btn{
+    outline: none;
+    display: inline-block;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background: #0081d5;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn:hover,
+.btn:focus{
+    background: #005c99;
+}
+.btn:active{
+    background: #003659;
+}
+.btn-outline{
+    outline: none;
+    display: inline-block;
+    border: solid 1px #0081d5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background: white;
+    color: #0081d5;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-outline:hover,
+.btn-outline:focus{
+    background: #005c99;
+    color: white;
+}
+.btn-outline:active{
+    background: white;
+    color: #0081d5;
+}
+#menu-top{
+    position: absolute;
+    top: 15%;
+    padding: 0px;
+    left: 600px;
+
+}
+#menu-top ul li{
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+}
+#menu-top ul li a{
+    text-decoration: none;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+}
+#menu-top ul li a:hover{
+    background-color: gray;
+}
