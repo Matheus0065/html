@@ -85,7 +85,8 @@ h1{
 }
 #menu-top ul li{
     list-style: none;
-    display: inline-block;
+    display: inline;
+    padding: 30px;
     width: 200px;
     height: 40px;
 }
